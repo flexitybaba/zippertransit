@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" type="image/png" href="/assets/images/zpt-favicon.png" sizes="40x40" />
+
+  <!-- Seo -->
+  <title>Zipper Transit | Opportunities Made Simple!</title>
+  <meta name="description" content="Don't worry about finding experts again, Zipper Transit will connect you." />
+  <meta name="twitter:title" content="Zipper Transit | Opportunities Made Simple!" />
+  <meta name="twitter:description" content="Don't worry about finding experts again, Zipper Transit will connect you." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="tz:title" content="Zipper Transit | Opportunities Made Simple!" />
+  <meta property="tz:description" content="Don't worry about finding experts again, Zipper Transit will connect you." />
+  <meta property="tz:type" content="website" />
+  <meta property="tz:url" content="https://www.zippertransit.com"/>
+  <meta name="keywords"
+    content="Zipper Transit, professional marketplace, artisans in Nigeria, Nigerian service providers, business connections, hire professionals, online artisan platform, verified professionals, no shop rent, book artisans, customer reviews, skilled workers, quality services, fast connection, affordable services, reliable professionals, Nigerian business solutions, professional profiles, on-demand services, artisan reviews, professional categories, home repairs, event planning, barbers, hairdressers, community support, skill acquisition, poverty reduction, professional verification, easy registration, Nigerian artisans, local professionals, service providers in Nigeria, artisan network, customer trust, professional ratings, small business growth, connect with experts, support local businesses, professional listings, artisan solutions, business boosting plans, Zipper Transit community, professional opportunities, skilled professionals in Nigeria, find professionals, empower artisans, verified experts, reliable connections, seamless bookings." />
+
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@200,400,700,500,600,1,300&display=swap"
+    rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+  <!-- fixed-top -->
+  <nav class="py-3 container" id="main_nav">
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo">
+        <img src="./assets/images/zippertransit-Logo_.png" alt="Zipper Transit logo" width="200" height="55"
+          class="img-fluid" />
+      </a>
+
+      <div class="menu_icon d-lg-none">
+        <img src="./assets/icons/menu-icon.svg" alt="menu icon" />
+      </div>
+
+      <ul id="mob_nav_menu" class="d-inline-flex flex-column flex-lg-row align-lg-items-center zpt_nav_menu">
+        <li class="">
+          <a href="./#how-it-works">How it works</a>
+        </li>
+        <li class="">
+          <a href="./#why-zippertransit">Why Zipper Transit</a>
+        </li>
+        <li class="">
+          <a href="./#allServices">All Services</a>
+        </li>
+        <li class="">
+          <a href="./#pricing">Pricing</a>
+        </li>
+        <li class="">
+          <a href="aboutUs.html">About Us</a>
+        </li>
+
+        <div class="d-flex justify-content-start">
+          <a href="https://wa.me/2349014545346" class="d-inline w-auto d-lg-none btn zpt_primary_btn">
+            Contact
+          </a>
+        </div>
+      </ul>
+
+      <a href="https://zippertransitmarketplace.flutterflow.app/support" class="d-none d-lg-inline-block btn zpt_primary_btn">Contact</a>
+    </div>
+  </nav>
+
+    <header class="header_section">
+      <div class="container">
+        <div class="row d-flex gap-4">
+          <div class="col-12 d-flex align-items-center">
+            <div class="text_container">
+              <h2 class="title">Terms and conditions</h2>
+              <p class="detail">ZIPPER TRANSIT TERMS OF SERVICE</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="s_p sec">
+      <div class="container">
+        <div class="me-lg-5 mb-5">
+
+          <p class="details">
+            Effective Date: April, 2026
+          </p>
+          <h4 class="sub_title mb-4">Acceptance of Terms</h4>
+          <p class="details">
+            By downloading, registering, or using Zipper Transit (“the App”), you agree to these Terms and Conditions. If you do not agree, you must discontinue use immediately.
+          </p>
+        </div>
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Introduction</h4>
+          <p class="details">
+            Welcome to Zipper Transit (“we”, “our”, “us”). These Terms & Conditions (“Terms”) govern your access to and use of the Zipper Transit platform, including mobile applications, websites, and services.
+<br><br>
+By creating an account or using Zipper Transit, you agree to be bound by these Terms.
+            </p>
+        </div>
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Platform Role</h4>
+          Zipper Transit is a technology platform that connects:
+          <p class="details">
+            <ol>
+              <li>
+Customers (Users) </li>
+
+              <li>
+Professionals (Service Providers)
+              </li>
+              
+            </ol>
+            We do not provide services directly. <br>
+
+⚠️ Zipper Transit is not responsible for the quality, outcome, or delivery of services performed by professionals.
+<br><br>
+All engagements are between users and professionals.
+          </p>
+        </div>
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Eligibility</h4>
+        <p>To use Zipper Transit, you must:</p> 
+          <p class="details">
+            <ol>
+              <li>
+Be at least 18 years old
+              </li>
+
+              <li>
+Provide accurate information
+              </li>
+
+              <li>
+Not be prohibited by law from using such services
+              </li>
+             
+            </ol>
+        </div>
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Account Registration</h4>
+          You agree to:
+          <p class="details">
+            <ol>
+              <li>
+                Provide accurate and complete information
+              </li>
+
+              <li>
+Keep login credentials secure
+              </li>
+
+              <li>
+Be responsible for all activities under your account
+              </li>
+             
+            </ol>
+We reserve the right to suspend or terminate accounts for false or misleading information.
+          </p>
+        </div>
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Services and Bookings</h4>
+          <p class="details">
+            <ol>
+              <li>
+                Users can book professionals through the platform
+              </li>
+
+              <li>
+Professionals may accept or reject requests
+              </li>
+
+                            <li>
+Service details, pricing, and timelines are agreed between both parties
+              </li>
+
+            </ol>
+            Zipper Transit does not guarantee availability or performance.
+          </p>
+        </div>
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">
+Payments and Wallet System
+          </h4>
+          <p class="details">
+            <ol>
+              <li>
+ Users may deposit funds into their wallet
+              </li>
+
+              <li>
+         Wallet balances can be used for services within the app
+              </li>
+
+              <li>
+       Payments are processed via third-party providers (e.g., Paystack)
+              </li>
+                            <li>
+We do not store card details
+              </li>
+              
+            </ol>
+          </p>
+        </div>
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Escrow System</h4>
+          <p class="details">
+Zipper Transit operates an escrow-based payment system:
+          </p>
+
+          <p class="details">
+            <ol>
+              <li>
+Funds are held securely until release conditions are met
+              </li>
+
+              <li>
+ Professionals cannot access funds until approved
+              </li>
+
+              <li>
+ Funds are released only when the user confirms satisfaction
+              </li>
+                            <li>
+Once released, funds may not be recoverable
+              </li>
+                            <li>
+Users may release funds for materials during a job
+              </li>
+                                          <li>
+These funds are considered approved expenses
+              </li>
+              
+            </ol>
+          </p>
+        </div>
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Disputes</h4>
+          In case of disputes:
+          <p class="details">
+            <ol>
+              <li>
+                Users should make payments on the platform, cash or payment outside the app are not guarantee to be recoverable
+              </li>
+
+              <li>
+Reports can be submitted via the “Report” feature
+              </li>
+              
+            </ol>
+          </p>
+          Zipper Transit may:
+          <p class="details">
+            <ol>
+              <li>
+Review disputes
+              </li>
+
+              <li>
+Provide mediation support
+              </li>
+              
+            </ol>
+          </p>
+                  ⚠️ However, we do not guarantee resolution outcomes and are not liable for losses.
+
+        </div>
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Fees and Charges</h4>
+          <p class="details">
+            Zipper Transit may charge:
+          </p>
+          <p class="details">
+            <ol>
+              <li>
+Service fees
+              </li>
+
+              <li>
+Withdrawal fees
+              </li>
+                            <li>
+Platform commissions
+              </li>
+              
+            </ol>
+            All fees will be disclosed before transactions.
+          </p>
+        </div>
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Identity Verification (KYC)</h4>
+          <p class="details">
+To ensure safety:          
+</p>
+
+          <p class="details">
+            <ol>
+              <li>
+Users may be required to verify identity (e.g., NIN via third-party providers)
+              </li>
+
+              <li>
+Zipper Transit does not store full NIN data
+              </li>
+              
+            </ol>
+       Failure to verify may limit account access.
+          </p>
+        </div>
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">User Conduct</h4>
+          <p class="details">
+You agree NOT to:
+            <ol>
+              <li>
+Provide false information
+              </li>
+
+              <li>
+Engage in fraud or illegal activity
+              </li>
+                            <li>
+Harass or abuse other users
+              </li>
+               <li>
+Bypass the platform to avoid fees              </li>
+
+            </ol>
+Violation may result in:
+          </p>
+           <ol>
+              <li>
+Account suspension
+              </li>
+
+              <li>
+Permanent termination
+              </li>
+                            <li>
+Legal action
+              </li>
+               
+
+            </ol>
+</p>
+        </div>
+
+
+                <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Professional Responsibilities</h4>
+          <p class="details">
+Professionals agree to:
+            <ol>
+              <li>
+Deliver services as agreed
+              </li>
+
+              <li>
+Use funds appropriately (especially material payments)
+              </li>
+                            <li>
+Maintain professionalism
+              </li>
+
+            </ol>
+Failure may result in penalties or removal from the platform.          </p>
+</p>
+        </div>
+
+
+
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Limitation of Liability</h4>
+          <p class="details">
+           To the fullest extent permitted by law:
+          </p>
+          <p class="details">
+Zipper Transit is not liable for:
+          </p>
+          <p class="details">
+            <ol>
+              <li>
+Service quality issues
+              </li>
+
+              <li>
+Financial losses between users
+              </li>
+                            <li>
+Disputes between users and professionals
+              </li>
+               <li>
+Delays, damages, or incomplete jobs
+     </li>
+
+            </ol>
+Use of the platform is at your own risk.
+          </p>
+          
+        </div>
+
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Third-Party Services</h4>
+          <p class="details">
+We integrate third-party services such as:
+            <ol>
+              <li>
+Payment processors
+              </li>
+
+              <li>
+Identity verification providers
+              </li>
+
+            </ol>
+We are not responsible for:
+          </p>
+           <ol>
+              <li>
+Their performance              </li>
+
+              <li>
+Data handling              </li>
+                            <li>
+Security issues              </li>
+               
+
+            </ol>
+</p>
+        </div>
+
+
+
+
+
+         <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Account Suspension & Termination</h4>
+          <p class="details">
+We may suspend or terminate accounts if:
+            <ol>
+              <li>
+Fraud is suspected
+              </li>
+
+              <li>
+Terms are violated
+              </li>
+                            <li>
+Abuse of platform occurs
+              </li>
+
+            </ol>
+We may also freeze funds if necessary for investigation.
+</p>
+</p>
+        </div>
+
+
+
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Data and Privacy</h4>
+          <p class="details">
+Your data is handled in accordance with our Privacy Policy.
+</p>
+</div>
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Modifications</h4>
+          <p class="details">
+We may update these Terms at any time.
+</p>
+<p>
+  Continued use of the platform means you accept the updated Terms.
+</p>
+</div>
+
+
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Governing Law</h4>
+          <p class="details">
+These Terms are governed by the laws of: Federal Republic of Nigeria
+</p>
+</div>
+
+
+        <div class="me-lg-5 mb-5">
+          <h4 class="sub_title mb-4">Contact</h4>
+          <p class="details">
+For support or legal inquiries:
+</p>
+<p>
+                            <a href="mailTO:support@zippertransit.com"> support@zippertransit.com </a>
+</p>
+</div>
+
+
+      
+      </div>
+    </section>
+
+    <footer class="footer_zpt">
+      <div class="container">
+        <a class="d-inline-flex d-md-none mb-5" href="/">
+          <img src="./assets/images/zippertransit-Logo.png" width="228" height="61" alt="Zipper Transit logo" class="f_logo" />
+        </a>
+  
+        <div class="row">
+          <div class="col-md-6 order-3 order-md-1">
+            <div class="d-flex flex-column gap-5">
+              <a class="d-none d-md-inline-flex" href="/">
+                <img src="./assets/images/zippertransit-Logo.png" width="228" height="61" alt="Zipper Transit logo"
+                  class="f_logo" />
+              </a>
+  
+  
+  
+              <div class="socials">
+                <h6 class="title mb-1">Connect with us:</h6>
+  
+                <div class="d-flex align-items-center gap-2">
+                  <a href="#" class="social_icon_holder d-inline-flex align-items-center justify-content-center">
+                    <img src="./assets/icons/Fb-zpt.png" alt="Connect with Zipper Transit on facebook" height="25" />
+                  </a>
+                  <a href="#" class="social_icon_holder d-inline-flex align-items-center justify-content-center">
+                    <img src="./assets/icons/X-zpt.png" alt="Connect with Zipper Transit on X" height="25" />
+                  </a>
+                  <a href="https://www.instagram.com/zippertransit/"
+                    class="social_icon_holder d-inline-flex align-items-center justify-content-center">
+                    <img src="./assets/icons/IG-zpt.png" alt="Connect with Zipper Transit on Instagram" height="25" />
+                  </a>
+                  <a href="#" class="social_icon_holder d-inline-flex align-items-center justify-content-center">
+                    <img src="./assets/icons/YouTube-zpt.png" alt="Connect with Zipper Transit on YouTube" height="25" />
+                  </a>
+                  <a href="#" class="social_icon_holder d-inline-flex align-items-center justify-content-center">
+                    <img src="./assets/icons/linkedin-zpt.png" alt="Connect with Zipper Transit on LinkedIn" height="25" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 order-1 order-md-2">
+            <ul class="footer_link_group">
+              <li>Company</li>
+              <li>
+                <a href="./#how-it-works"> How It Work </a>
+              </li>
+              <li>
+                <a href="./#why-zippertransit"> Why Zipper Transit </a>
+              </li>
+              <li>
+                <a href="./#allServices"> All Services </a>
+              </li>
+              <li>
+                <a href="./#pricing"> Pricing </a>
+              </li>
+
+
+                            <li>
+                <a href="refund-dispute-policy.html">Refund & Dispute Policy </a>
+              </li>
+
+              <li>
+                <a href="aboutUs.html">About Us </a>
+              </li>
+              <li>
+                <a href="faq.html">FAQs </a>
+              </li>
+
+            </ul>
+          </div>
+          <div class="col-md-3 order-2 order-md-3">
+            <ul class="footer_link_group">
+              <li>Contact</li>
+              <li>
+                <a href="https://zippertransitmarketplace.flutterflow.app/support"> Support </a>
+              </li>
+              <li>
+                <div class="mail_title">Send a mail:</div>
+                <a href="mailTO:help@zippertransit.com"> help@zippertransit.com </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="row footer_note d-flex align-items-center mt-3">
+          <div class="col-md-6 order-3 order-md-1">
+            <div class="detail mt-4 mt-md-0">
+              &copy; 2024. Zipper Transit Technologies Limited. All rights reserved
+            </div>
+          </div>
+          <div class="col-6 col-md-3 order-1 order-md-2">
+            <a href="privacy-policy.html" class="detail">Privacy </a>
+          </div>
+
+          
+          
+          <div class="col-6 d-flex justify-content-end justify-content-md-start col-md-3 order-2 order-md-3">
+            <a href="terms-and-condition.html" class="detail">Terms of use </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
